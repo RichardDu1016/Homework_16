@@ -1,4 +1,4 @@
-package xxx;
+package hw2;
 
 public class TestNine {
 	public static void main(String[] args) {
