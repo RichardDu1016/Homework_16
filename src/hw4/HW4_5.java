@@ -21,7 +21,9 @@ public class HW4_5 {
 		}
 		int dayofyear = caldayofyear(year,month,day);
 		System.out.println("輸入日期為該年的第" + dayofyear + "天");
+		sc.close();
 	}
+	
 	
 	public static int caldayofyear(int year,int month,int day) {
 		int dayofmonth[] = {0,30,31,30,31,30,31,31,30,31,30,31};

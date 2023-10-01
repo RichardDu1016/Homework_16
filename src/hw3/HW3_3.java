@@ -33,7 +33,7 @@ public class HW3_3 {
 	}
 		System.out.println("你可以選得數字共有：" + ccs + "個");
 		
-		
+	sc.close();	
 }
 	
 }

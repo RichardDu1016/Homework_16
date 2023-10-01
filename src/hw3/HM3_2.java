@@ -20,5 +20,6 @@ public class HM3_2 {
 			gn = sc.nextInt();
 		}
 			System.out.println("猜對囉!");
+			sc.close();
 	}
 }

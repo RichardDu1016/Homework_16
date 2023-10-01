@@ -64,9 +64,9 @@ public class HW4 {
 		for(int i =0; i <= cbc.length -1; i++) {
 			System.out.print(cbc[i] + " ");
 		}
-		System.out.print("共　"+ count +"　人！");
+		System.out.print("共　"+ count1 +"　人！");
 		
-	
+		sc.close();
 			 
 ////    作業六
 		int arrayTest[][] = {{10,35,40,100,90,85,75,70},{37,75,77,89,64,75,70,95},

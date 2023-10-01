@@ -3,6 +3,7 @@ package hw5;
 public class MyRectangle {
 	public double width;
 	public double depth;
+	public double area;
 	
 	void setWidth(double width) {
 		this.width = width;
@@ -13,7 +14,6 @@ public class MyRectangle {
 	}
 	
 	double getArea() {
-		double area;
 		return area = width * depth;
 	}
 	

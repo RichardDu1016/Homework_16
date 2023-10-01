@@ -10,6 +10,7 @@ public class HW5 {
 	System.out.println("請輸入高度:");
 	int height = num.nextInt();
 	starSquare(width, height);
+	num.close();
 	// 第一題 --------------------------------------
 	
 	// 第二題 --------------------------------------

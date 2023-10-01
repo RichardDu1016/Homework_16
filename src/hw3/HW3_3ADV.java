@@ -23,6 +23,8 @@ public class HW3_3ADV {
 		for(int i=0; i<6; i++) {
 			System.out.print( seamotherNum[i]+ " ");
 		}
+		
+		sc.close();
 
 			}
 		
