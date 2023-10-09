@@ -32,16 +32,16 @@ public class HW8_1 {
 		System.out.println("============================");
 		
 //		
-//		for(int i = 0; i < list.size(); i++) {
-//			Object obj2 = list.get(i);
-//			System.out.println(obj2);
-//		}
+		for(int i = 0; i < list.size(); i++) {
+			Object obj2 = list.get(i);
+			System.out.println(obj2);
+		}
 //		System.out.println("============================");
 		
 		//for-each
-//		for(Object obj3: list) {
-//			System.out.println(obj3);
-//		}
+		for(Object obj3: list) {
+			System.out.println(obj3);
+		}
 		//移除不是　java.lang.num　物件
 			
 		 List<Object> elementsToRemove = new ArrayList<>();

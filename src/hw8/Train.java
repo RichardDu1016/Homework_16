@@ -1,6 +1,6 @@
 package hw8;
 
-public class Train {
+public class Train implements Comparable<Train>{
 	private int number;
 	private String type;
 	private String start;
@@ -45,6 +45,21 @@ public class Train {
 
 	public void setPrice(double price) {
 		this.price = price;
+	}
+	
+	public String getAll() {
+		return number + "," + type + "," + start + "," + dest + "," + price; 
+	}
+	
+	public int compareTo(Train aTrain) {
+		if(this.number < aTrain.number) {
+			return 1;
+		}else if(this.number == aTrain.number) {
+			return 0;
+			
+		}else {
+			return -1;
+		}
 	}
 
 //	public Train(){
